@@ -1,0 +1,42 @@
+header {
+    background-color: bisque;
+    font-family: Arial;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 10px;
+    font-size: 250%;
+    text-align: middle;
+}
+
+
+/* MENU HORIZONTAL */
+
+.menu-hor {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+.menu-hor li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+.menu-hor li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+.menu-hor li:last-child {
+    border-right: none;
+}
+
